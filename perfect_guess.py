@@ -19,7 +19,7 @@ while (quit =='N' or quit =='n'):
         if(guess<highscore):
             print("Congratulations!! You've just broken the highest score!")
             print(f"Previous High Score: {highscore}")
-            with open("highscore.txt", "w") as f:
+            with open("perfect_guess/highscore.txt", "w") as f:
                 f.write(str(guess))
         else:
             print(f"High Score: {highscore}")
